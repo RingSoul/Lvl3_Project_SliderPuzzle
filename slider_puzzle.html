@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slider Puzzle</title>
+        <link href="puzzle_appearance.css" rel="stylesheet" />
+        <style></style>
+        <script src="puzzle_functionality.js"></script>
+        <script></script>
+    </head>
+   
+    <body onload="initialize()">
+        <h2 id="header"></h2>
+        <table id="puzzle"></table>
+        <br />
+        <div>
+            <button onclick="start();">Start</button>
+            <button onclick="reset();">Reset</button>
+            <button onclick="shuffle();">Shuffle</button><br /><br />
+            Number of Moves: <span id="numMoves">0</span>
+        </div>
+        <hr />
+        <div>
+            <h3>Instructions</h3>
+            <ol>
+                <li>The game is won when the numbers are in counting order (from left to right and all the way down), with the empty block at the bottom right corner.</li>
+                <li>The <span class="green-text">"Start" button</span> starts the game; it resets the number of moves back to 0 and starts counting your moves all over again.</li>
+                <li>The <span class="green-text">"Reset" button</span> pauses the game, and the game would stop counting your moves UNTIL you click "Start" again.</li>
+                <li>Before you "Start" the game, you can manually shuffle the puzzle, or click the <span class="green-text">"Shuffle" button</span> to randomly shuffle.</li>
+            </ol>
+        </div>
+    </body>
+</html>

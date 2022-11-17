@@ -1,0 +1,59 @@
+body
+{
+    background-color: #cd6d00;
+    text-align: center;
+    color: #002429;
+    font-size: 12pt;
+    font-weight: bold;
+}
+ 
+#header
+{
+    color: #000000;
+}
+ 
+table#puzzle
+{
+    width: 100%;
+    border: thick solid #630000;
+    border-collapse: collapse;
+}
+ 
+td
+{
+    width: 25%;
+    text-align: center;
+    background-color: #c4915f;
+    font-size: 19pt;
+    font-weight: bold;
+    color: #0000a0;
+    padding-top: 6.5vh;
+    padding-bottom: 6.5vh;
+    border: thin solid #c4a689;
+}
+ 
+button
+{
+   padding: 19px;
+   text-align: center;
+}
+ 
+div#instruction
+{
+    color: #000000;
+}
+ 
+.green-text
+{
+    color: #005500;
+}
+
+.red-text
+{
+    color: #670000;
+}
+ 
+ol
+{
+    list-style: none;
+}
